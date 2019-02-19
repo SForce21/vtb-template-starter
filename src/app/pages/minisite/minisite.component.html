@@ -7,7 +7,7 @@
   <vtb-menu
     [toggle]="true"
     [stickyAt]="300"
-    [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodaties', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Contact', 'selector': '.social-media'}]"
+    [dataSource]="[{name: 'Reisroute', selector: '.travelroute'}, {name: 'Programma', selector: '.program'}]"
   ></vtb-menu>
 </div>
 
@@ -46,7 +46,10 @@
     ></vtb-youtube>
   </div>
 </div>
-{{itinerary.startDate}} {{itinerary.participants['party 1'][0].surname}}
+<div class="order_period">{{itinerary.startDate}}</div>
+<div class="participant_names">
+  {{itinerary.participants['party 1'][0].surname}}
+</div>
 
 <div class="map">
   <div class="titles">
@@ -65,24 +68,26 @@
 <div class="travelroute">
   <div class="titles">
     <h1>Reisroute</h1>
-    <h3>TEST TEST HOOOOOOI Lees hieronder de reisroute</h3>
+    <h3>Lees hieronder de reisroute</h3>
   </div>
 
   <vtb-elements
     [dataSource]="itinerary.segments"
-    [elementFields]="[{name: 'day', prefix: 'Dag ', tag: 'span', class: 'daynr'}, {name: 'date', tag: 'span', class: 'datetest'}, {name: 'title', tag: 'span'}]"
-    [segmentTypeIds]="[1,2]"
+    [elementFields]="[{name: 'day', prefix: 'Dag ', tag: 'h2'}, {name: 'date', tag: 'span', class: 'datetest'}, {name: 'title', tag: 'span'}]"
+    [segmentTypeIds]="[1,2,3]"
   ></vtb-elements>
 </div>
 
 <div class="program" data-block="program">
   <div class="titles">
-    <h1>Programmas</h1>
+    <h1>Programma</h1>
     <h3>Lees hieronder het programma van dag tot dag</h3>
   </div>
 
   <vtb-segments
     [dataSource]="itinerary.segments"
+    [segmentTypeIds]="[15]"
+    [reverseSegmentTypeIds]="true"
     [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'span'}, {name: 'title', tag: 'h2'},{name: 'subTitle', tag: 'h4'},{name: 'content', tag: 'p'}]"
   ></vtb-segments>
 </div>

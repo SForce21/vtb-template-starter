@@ -1,1038 +1,1340 @@
 {
-  "startDate":"Tue Nov 13 2018 00:00:00 GMT+0100 ",
-  "TSOrder":{
-     "id":594,
-     "sourceDescription":"Test VTB"
+  "TSOrder": {
+    "texts": {
+      "internal": "",
+      "general": "<p>General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier. General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.&nbsp;General tekst hier.\u200b\u200b\u200b\u200b\u200b\u200b\u200b</p>",
+      "proposal": "<p>Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;Offerte tekst hier.&nbsp;</p>"
+    },
+    "id": 1359,
+    "sourceDescription": "#001359: Test de Tester"
   },
-  "extraFieldValues":[
-     {
-        "id":1,
-        "parent_id":null,
-        "link_type":"order",
-        "layout_data":null,
-        "display_at":null,
-        "sort_order":null,
-        "name":"Order Extra Fields",
-        "fields":[
-           {
-              "id":2,
-              "name":"header_video",
-              "type_id":1,
-              "valid_regex":"",
-              "defaults":null,
-              "category_id":2,
-              "sort_order":null,
-              "field_type":"TextBox",
-              "display_at":"both",
-              "show_in_product":0,
-              "layout_data":null,
-              "maxlength":null,
-              "maxlength_enforce":0,
-              "translated_name":"Header Video",
-              "field_value_link_id":5,
-              "link_type":"order",
-              "link_id":594,
-              "value":"https:\/\/www.youtube.com\/watch?v=Ioq1u3VvWRk"
-           }
-        ]
-     }
-  ],
-  "participants":{
-     "party 1":[
+  "startDate": "Thu Mar 21 2019 00:00:00 GMT+0100 ",
+  "extraFieldValues": [
+    {
+      "id": 11,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": {
+        "vtbClass": "twoColumn"
+      },
+      "display_at": "both",
+      "sort_order": null,
+      "name": "Test Date",
+      "fields": [
         {
-           "id":5271,
-           "title_id":2,
-           "title":"Mevr.",
-           "initials":"",
-           "name":"Jane",
-           "surname":"Doe",
-           "company":"",
-           "street":"",
-           "housenum":"",
-           "postalcode":"",
-           "city":"",
-           "country":"NL",
-           "birthdate":null,
-           "age_calc_type":"birthdate",
-           "informal":1,
-           "language_id":2,
-           "notes":"",
-           "created":"2018-12-07 12:36:10",
-           "created_by":null,
-           "modified":null,
-           "minimal":1,
-           "use_maincontact_details":0,
-           "nationality":null,
-           "passport_firstname":"",
-           "passport_number":"",
-           "passport_expiry_date":null,
-           "frequent_flyer_numbers":"",
-           "airline_preference":"",
-           "meal_preference":"",
-           "seat_preference":"",
-           "preferences_memo":"",
-           "smoking":null,
-           "lodging_preference":"",
-           "province":"",
-           "passport_issue_city":"",
-           "birth_city":"",
-           "contact_tag":null,
-           "surname_prefix":"",
-           "last_email_contact_ts":null,
-           "last_email_contact_id":null,
-           "last_email_contact_mailbox_id":null,
-           "last_call_contact_id":null,
-           "last_call_contact_ts":null,
-           "passport_surname":"",
-           "inserted_by":9,
-           "inserted_at":"2018-12-07 12:36:10",
-           "inserted_audit_id":null,
-           "updated_by":9,
-           "updated_at":"2018-12-07 12:36:10",
-           "updated_audit_id":null,
-           "general_info":null,
-           "passport_nr":null,
-           "boardingplace_id":null,
-           "groupnr":1,
-           "sex":"female",
-           "has_linked_ols":38,
-           "has_locked_ols":0,
-           "partyName":"party 1"
+          "id": 35,
+          "name": "Bookable",
+          "type_id": 6,
+          "valid_regex": "0",
+          "defaults": null,
+          "category_id": 11,
+          "sort_order": null,
+          "field_type": "Date",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Bookable from"
         }
-     ]
+      ]
+    },
+    {
+      "id": 12,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": {
+        "width": "250px",
+        "background-color": "dodgerblue",
+        "outline-style": "double",
+        "outline-color": "yellow"
+      },
+      "display_at": null,
+      "sort_order": null,
+      "name": "Test Text_area_editor",
+      "fields": [
+        {
+          "id": 36,
+          "name": "TestSuzanne",
+          "type_id": 8,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 12,
+          "sort_order": null,
+          "field_type": "TextAreaEditor",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": {
+            "width": "500px"
+          },
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "TestSuzanne"
+        },
+        {
+          "id": 37,
+          "name": "Test2Suzanne",
+          "type_id": 8,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 12,
+          "sort_order": null,
+          "field_type": "TextAreaEditor",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Test2Suzanne"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": null,
+      "sort_order": null,
+      "name": "TextBox",
+      "fields": [
+        {
+          "id": 38,
+          "name": "TextBoxTest",
+          "type_id": 1,
+          "valid_regex": "0",
+          "defaults": null,
+          "category_id": 13,
+          "sort_order": 99,
+          "field_type": "TextBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": {
+            "width": "150px"
+          },
+          "maxlength": 10,
+          "maxlength_enforce": 0,
+          "translated_name": "TextBoxTest",
+          "value": "Extrafield textbox1 test"
+        },
+        {
+          "id": 52,
+          "name": "Testing",
+          "type_id": 1,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 13,
+          "sort_order": 100,
+          "field_type": "TextBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": {
+            "width": "100px"
+          },
+          "maxlength": 10,
+          "maxlength_enforce": 1,
+          "translated_name": "Testing",
+          "value": "Extrafield textbox2 test"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": null,
+      "sort_order": null,
+      "name": "Filtering Selection",
+      "fields": [
+        {
+          "id": 39,
+          "name": "FilterSuzanne",
+          "type_id": 3,
+          "valid_regex": "0",
+          "defaults": "1;1|2",
+          "category_id": 14,
+          "sort_order": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Filter",
+          "selected": "1",
+          "options": ["1", "2"]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": null,
+      "sort_order": null,
+      "name": "Testing Orderline",
+      "fields": []
+    },
+    {
+      "id": 25,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": "both",
+      "sort_order": 1,
+      "name": "Airport and country",
+      "fields": [
+        {
+          "id": 53,
+          "name": "AirportSelect",
+          "type_id": 10,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 25,
+          "sort_order": null,
+          "field_type": "AirportSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "AirportSelect",
+          "field_value_link_id": 178560,
+          "link_type": "order",
+          "link_id": 1359,
+          "value": "AMS"
+        },
+        {
+          "id": 54,
+          "name": "CountrySelect",
+          "type_id": 11,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 25,
+          "sort_order": null,
+          "field_type": "CountrySelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "CountrySelect",
+          "field_value_link_id": 178559,
+          "link_type": "order",
+          "link_id": 1359,
+          "value": "AU"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": "both",
+      "sort_order": 10,
+      "name": "Test checkboxen",
+      "fields": [
+        {
+          "id": 17,
+          "name": "se_bookable",
+          "type_id": 2,
+          "valid_regex": "0",
+          "defaults": null,
+          "category_id": 4,
+          "sort_order": 1,
+          "field_type": "CheckBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Bookable",
+          "field_value_link_id": 6438,
+          "link_type": "product",
+          "link_id": 1359,
+          "value": "1"
+        },
+        {
+          "id": 20,
+          "name": "se_onlypriceservice",
+          "type_id": 2,
+          "valid_regex": "0",
+          "defaults": null,
+          "category_id": 4,
+          "sort_order": 1,
+          "field_type": "CheckBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "onlypriceservice",
+          "field_value_link_id": 6441,
+          "link_type": "product",
+          "link_id": 1359,
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": "both",
+      "sort_order": 80,
+      "name": "Discount",
+      "fields": [
+        {
+          "id": 42,
+          "name": "Commissie 2%",
+          "type_id": 2,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 16,
+          "sort_order": 1000,
+          "field_type": "CheckBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Discount 2%",
+          "discountRounding": -2
+        },
+        {
+          "id": 43,
+          "name": "Toeslag",
+          "type_id": 2,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 16,
+          "sort_order": 1001,
+          "field_type": "CheckBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Add 5%",
+          "discountRounding": 5
+        },
+        {
+          "id": 46,
+          "name": "Afronding",
+          "type_id": 2,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 16,
+          "sort_order": 1002,
+          "field_type": "CheckBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Rounding",
+          "discountRounding": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": "both",
+      "sort_order": 90,
+      "name": "Time",
+      "fields": [
+        {
+          "id": 55,
+          "name": "Timefield",
+          "type_id": 12,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 18,
+          "sort_order": null,
+          "field_type": "Time",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Time",
+          "field_value_link_id": 178561,
+          "link_type": "order",
+          "link_id": 1359,
+          "value": "01:01:00"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": "both",
+      "sort_order": 100,
+      "name": "",
+      "fields": []
+    },
+    {
+      "id": 10,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": {
+        "width": "250px",
+        "background-color": "pink",
+        "border-style": "double"
+      },
+      "display_at": "both",
+      "sort_order": 1000,
+      "name": "Test Text",
+      "fields": [
+        {
+          "id": 34,
+          "name": "Suzanne test",
+          "type_id": 7,
+          "valid_regex": "0",
+          "defaults": null,
+          "category_id": 10,
+          "sort_order": null,
+          "field_type": "TextArea",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": {
+            "width": "200px"
+          },
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Suzannetest"
+        }
+      ]
+    }
+  ],
+  "participants": {
+    "party 1": [
+      {
+        "id": 30804,
+        "title_id": 1,
+        "title": "Dhr.",
+        "initials": "K.",
+        "name": "Karel",
+        "surname": "Euring",
+        "company": "",
+        "street": "",
+        "housenum": "",
+        "postalcode": "",
+        "city": "",
+        "country": "",
+        "birthdate": "1980-01-01",
+        "age_calc_type": "birthdate",
+        "informal": 0,
+        "language_id": 2,
+        "notes": "",
+        "created": "2018-04-07 16:16:46",
+        "created_by": null,
+        "modified": null,
+        "minimal": 1,
+        "use_maincontact_details": 1,
+        "nationality": null,
+        "passport_firstname": "",
+        "passport_number": "",
+        "passport_expiry_date": null,
+        "frequent_flyer_numbers": "",
+        "airline_preference": "",
+        "meal_preference": "",
+        "seat_preference": "",
+        "preferences_memo": "",
+        "smoking": null,
+        "lodging_preference": "",
+        "province": "",
+        "passport_issue_city": "",
+        "birth_city": "",
+        "contact_tag": null,
+        "surname_prefix": "",
+        "last_email_contact_ts": null,
+        "last_email_contact_id": null,
+        "last_email_contact_mailbox_id": null,
+        "last_call_contact_id": null,
+        "last_call_contact_ts": null,
+        "passport_surname": "",
+        "inserted_by": 1,
+        "inserted_at": "2018-04-07 16:16:46",
+        "inserted_audit_id": null,
+        "updated_by": 1,
+        "updated_at": "2018-04-07 16:16:46",
+        "updated_audit_id": null,
+        "general_info": null,
+        "passport_nr": null,
+        "boardingplace_id": null,
+        "groupnr": 1,
+        "sex": "male",
+        "has_linked_ols": 8,
+        "has_locked_ols": 0,
+        "partyName": "party 1"
+      },
+      {
+        "id": 30809,
+        "title_id": 2,
+        "title": "Mevr.",
+        "initials": "K.",
+        "name": "Karin",
+        "surname": "Euring",
+        "company": "",
+        "street": "",
+        "housenum": "",
+        "postalcode": "",
+        "city": "",
+        "country": "",
+        "birthdate": "1980-01-01",
+        "age_calc_type": "birthdate",
+        "informal": 0,
+        "language_id": 2,
+        "notes": "",
+        "created": "2018-04-07 16:20:37",
+        "created_by": null,
+        "modified": null,
+        "minimal": 1,
+        "use_maincontact_details": 1,
+        "nationality": null,
+        "passport_firstname": "",
+        "passport_number": "",
+        "passport_expiry_date": null,
+        "frequent_flyer_numbers": "",
+        "airline_preference": "",
+        "meal_preference": "",
+        "seat_preference": "",
+        "preferences_memo": "",
+        "smoking": null,
+        "lodging_preference": "",
+        "province": "",
+        "passport_issue_city": "",
+        "birth_city": "",
+        "contact_tag": null,
+        "surname_prefix": "",
+        "last_email_contact_ts": null,
+        "last_email_contact_id": null,
+        "last_email_contact_mailbox_id": null,
+        "last_call_contact_id": null,
+        "last_call_contact_ts": null,
+        "passport_surname": "",
+        "inserted_by": 1,
+        "inserted_at": "2018-04-07 16:20:37",
+        "inserted_audit_id": null,
+        "updated_by": 1,
+        "updated_at": "2018-04-07 16:20:37",
+        "updated_audit_id": null,
+        "general_info": null,
+        "passport_nr": null,
+        "boardingplace_id": null,
+        "groupnr": 1,
+        "sex": "female",
+        "has_linked_ols": 8,
+        "has_locked_ols": 0,
+        "partyName": "party 1"
+      },
+      {
+        "id": 30924,
+        "title_id": 2,
+        "title": "Mevr.",
+        "initials": "",
+        "name": "Kathleen",
+        "surname": "Loockx",
+        "company": "",
+        "street": "",
+        "housenum": "",
+        "postalcode": "",
+        "city": "",
+        "country": "",
+        "birthdate": "2064-11-27",
+        "age_calc_type": null,
+        "informal": 0,
+        "language_id": null,
+        "notes": "",
+        "created": "2018-11-06 14:57:53",
+        "created_by": null,
+        "modified": null,
+        "minimal": 1,
+        "use_maincontact_details": null,
+        "nationality": null,
+        "passport_firstname": "Kathleen",
+        "passport_number": null,
+        "passport_expiry_date": null,
+        "frequent_flyer_numbers": null,
+        "airline_preference": null,
+        "meal_preference": null,
+        "seat_preference": null,
+        "preferences_memo": null,
+        "smoking": null,
+        "lodging_preference": null,
+        "province": null,
+        "passport_issue_city": null,
+        "birth_city": null,
+        "contact_tag": null,
+        "surname_prefix": null,
+        "last_email_contact_ts": null,
+        "last_email_contact_id": null,
+        "last_email_contact_mailbox_id": null,
+        "last_call_contact_id": null,
+        "last_call_contact_ts": null,
+        "passport_surname": null,
+        "inserted_by": 1,
+        "inserted_at": "2018-11-06 14:57:53",
+        "inserted_audit_id": null,
+        "updated_by": 1,
+        "updated_at": "2018-11-06 14:57:53",
+        "updated_audit_id": null,
+        "general_info": null,
+        "passport_nr": null,
+        "boardingplace_id": null,
+        "groupnr": 1,
+        "sex": "female",
+        "has_linked_ols": 8,
+        "has_locked_ols": 0,
+        "partyName": "party 1"
+      }
+    ]
   },
-  "segments":[
-     {
-        "nights":2,
-        "day":1,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Consectetur adipiscing elit",
-        "subTitle":"Donec iaculis enim",
-        "content":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula mauris, consequat quis leo maximus, pellentesque condimentum urna. Pellentesque vel metus non ligula efficitur condimentum. Donec enim nisi, mollis sed aliquet id, tempor quis risus. Pellentesque neque massa, ultrices sed eros eu, pretium porta urna. Curabitur nulla ipsum, fringilla convallis quam in, pretium cursus justo. Cras aliquam orci sed lorem rhoncus, ac tincidunt elit interdum. Cras nec tortor augue. Donec vehicula nulla posuere ante rutrum, ultrices facilisis eros accumsan. Donec elementum finibus arcu, ut viverra nisi porttitor vitae. Nunc sed ullamcorper libero, ac condimentum purus. Nunc aliquet, velit nec egestas vestibulum, nulla arcu hendrerit justo, at tincidunt magna nisl eu orci. Vestibulum a nisi varius, egestas orci id, commodo ex. Donec iaculis enim quis libero viverra, eget tempus tellus posuere. Aliquam sit amet lectus eros. Mauris posuere ex dolor, a luctus ante tempus eu. Proin imperdiet mattis odio, ut lobortis tellus imperdiet nec.<\/p>",
-        "TSBlock":{
-           "id":3249
+  "segments": [
+    {
+      "nights": 1,
+      "day": 1,
+      "isFlight": true,
+      "typeId": 7,
+      "title": "Vliegreis Amsterdam - Sydney",
+      "subTitle": null,
+      "content": null,
+      "TSBlock": {
+        "id": 3099
+      },
+      "flightInfo": [
+        {
+          "departureTime": "11:00",
+          "arrivalTime": "14:00",
+          "airlineCode": "KL",
+          "flightNumber": "123",
+          "departureAirport": "AMS",
+          "departureDate": "2019-03-21",
+          "arrivalDate": "2019-02-22",
+          "arrivalAirport": "SYD"
+        }
+      ],
+      "media": [],
+      "elements": [
+        {
+          "offset": 0,
+          "nights": 1,
+          "unitAmount": 1,
+          "unitId": 14,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Vliegreis Amsterdam - Sydney",
+          "TSProduct": {
+            "id": 21780,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17836
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Vliegreis Amsterdam - Sydney",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              },
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              },
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 1,
+          "date": "2019-03-20T23:00:00.000Z",
+          "endDate": "2019-03-21T23:00:00.000Z",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+      },
+      "carRentalElements": [],
+      "date": "2019-03-20T23:00:00.000Z",
+      "missingBookableDays": false,
+      "elementsOrder": "17836",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "carRentalEnd": null,
+      "carRentalStart": null,
+      "endDate": "2019-03-21T23:00:00.000Z"
+    },
+    {
+      "nights": 3,
+      "day": 2,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Bintang Griyawisata Hotel",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title></title>\n</head>\n<body>Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.</body>\n</html>\n",
+      "TSBlock": {
+        "id": 3098
+      },
+      "flightInfo": [],
+      "media": [
+        {
+          "sourceType": "mediaspirit",
+          "sourceId": "0acdeb0a3541ed45766c31a19201a0a5",
+          "url": "https://s3-eu-west-1.amazonaws.com/demo.mediaspirit.io/original/lg/Borneo2008 262.jpg",
+          "description": null
+        }
+      ],
+      "elements": [
+        {
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 15,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Transfer van airport naar hotel",
+          "TSProduct": {
+            "id": 18358,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17838
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 0,
+            "longitude": 0,
+            "pitch": 0,
+            "searchPlace": null,
+            "staticImageZoom": null,
+            "zoom": 0
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Transfer van airport naar hotel",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              },
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              },
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "needsOffsetRecalculation": true,
+          "day": 2,
+          "date": "2019-03-21T23:00:00.000Z",
+          "endDate": "2019-03-21T23:00:00.000Z",
+          "roomTypeMatchesParticipants": true
         },
-        "flightInfo":[
-
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"09eea36db78f48a52450481ffc13c3b3",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"677a2ed7fe35b9d5f8b300bb67823f5b",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-BlydeRiverCanyon.JPG"
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"804f8c2ccbce001f14a2b3640bf60fd5",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/route%20van%20Johannesburg%20naar%20Hazyview%20Machadodorp%20(1).jpg"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Iaculis Ligula",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
+        {
+          "offset": 0,
+          "nights": 3,
+          "unitAmount": 3,
+          "unitId": 2,
+          "optional": false,
+          "not_calculated": true,
+          "subTitle": "Standard Room",
+          "title": "Bintang Griyawisata Hotel",
+          "TSProduct": {
+            "id": 1148,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17839
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 0,
+            "longitude": 0,
+            "pitch": 0,
+            "searchPlace": "Jakarta",
+            "staticImageZoom": null,
+            "zoom": 0
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Bintang Griyawisata Hotel [Standard Room]",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "TSOrderline":{
-                 "id":8457
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Manggis,%20Alila%20Manggis%20(8).jpg",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Iaculis Ligula",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Vulputate ut"
-                 }
-              },
-              "additionalText":"Glass aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Vulputate ut",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Vulputate ut"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Iaculis Ligula",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/P1030133_gu329s.JPG",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Iaculis Ligula",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Libero gravida"
-                 }
-              },
-              "additionalText":"Class aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Libero gravida",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Libero gravida"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Etiam Sodales",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Manggis,%20Alila%20Manggis%20(20).jpg",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Etiam Sodales",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Ex Ontbijt"
-                 }
-              },
-              "additionalText":"Class aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Proin faucibus",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Proin faucibus"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Sed Porttitor Lacus",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/IMG_0360_8iylui.JPG",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Sed Porttitor Lacus",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"5.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Hotel Sed Porttitor Lacus"
-                 }
-              },
-              "additionalText":"Glass aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Hotel Sed Porttitor Lacus",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Posuere dolor"
-           }
-        ],
-        "inViewport":false,
-        "maps":{
-           "latitude":-24.238182,
-           "longitude":19.801568,
-           "zoom":5
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 2,
+          "date": "2019-03-21T23:00:00.000Z",
+          "endDate": "2019-03-24T23:00:00.000Z",
+          "roomTypeMatchesParticipants": false
         },
-        "carRentalElements":[
-
-        ],
-        "date":"2018-11-12T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8457",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     },
-     {
-        "nights":0,
-        "day":2,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Nullam in augue",
-        "subTitle":"Vivamus nisl est",
-        "content":"<p>Nullam in augue et eros congue dictum. Vivamus nisl est, interdum et molestie non, pulvinar quis leo. Morbi convallis est leo, ut fermentum velit malesuada non. Phasellus nec enim sapien. In nec iaculis ligula. Donec viverra, libero ut blandit condimentum, velit orci finibus turpis, vel accumsan nibh eros vel eros. Fusce libero sapien, accumsan eu massa quis, efficitur iaculis elit. Sed sed tincidunt enim, quis faucibus massa. Vestibulum vel risus vitae enim sagittis ornare sed et est.<\/p>",
-        "TSBlock":{
-           "id":2991
-        },
-        "flightInfo":[
-
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"09eea36db78f48a52450481ffc13c3b3",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Krugerpark-Neushoorn.JPG"
-           },
-           {
-              "id":2,
-              "sourceType":"mediaspirit",
-              "sourceId":"6ef21317bb6a50e1ede18bb9bd13d16d",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20(1).JPG",
-              "description":""
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"804f8c2ccbce001f14a2b3640bf28b0c",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20selfdrive%20(1).JPG"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Nam mollis hendrerit",
-              "TSProduct":{
-                 "id":199,
-                 "tag":"GUATRAAN2",
-                 "bookableDays":[
-
-                 ]
+        {
+          "offset": 1,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": true,
+          "not_calculated": true,
+          "title": "dagexcursie Ayutthaya (vanuit Bangkok)",
+          "TSProduct": {
+            "id": 7885,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17840
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 0,
+            "longitude": 0,
+            "pitch": 0,
+            "searchPlace": "Bangkok / Ayutthaya",
+            "staticImageZoom": null,
+            "zoom": 0
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "dagexcursie Ayutthaya (vanuit Bangkok)",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "TSOrderline":{
-                 "id":8010
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nam mollis hendrerit",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "additionalText": "deze dagexcursie (07.00-18.30 uur) neemt u mee naar een van de oude hoofdsteden van Thailand; Ayutthaya (in het jaar 1350). Per trein reist u \u2019s ochtends in ongeveer 1,5 uur van Bangkok naar Ayutthaya. Hier stapt u in een \u201cKermit Tuk Tuk\u201d (een speciale, gemotoriseerde Tuk Tuk die alleen in Ayutthaya en de Trang provincie voorkomt) voor een verkenning van het Historical Park. De ru\u00efnes van deze oude stad worden beschouwd als de spectaculairste van Thailand. Het is niet voor niets dat het historische centrum van Ayutthaya is opgenomen op de Werelderfgoedlijst van UNESCO. Zeker een bezoek waard zijn de tempels Wat Phra Si Sanphet, Wat Yai Chai Mongkol en Wat Phra Mahathat. In de Islamitische wijk proeft u een van de bekendste snacks uit Ayutthaya: \u2018candy floss roti\u2019. Na de lunch (inbegrepen) maakt u een ontspannen boottocht over de rivier rondom Ayutthaya Island. Dit biedt een ander perspectief op de historische bezienswaardigheden. Daarna wordt u per \u201cKermit Tuk Tuk\u201d naar het treinstation van Ayutthaya gebracht voor de treinrit terug naar Bangkok.Noot: u kunt eventueel ook een overnachting in Ayutthaya toevoegen.Noot: u kunt Ayutthaya eventueel ook combineren met een bezoek aan de Wat Niwet Thamaprawat en het Zomerpaleis van Bang Pa In. Vervoer is hierbij per auto i.p.v. per trein. Het prijsverschil en meer informatie is op aanvraag.",
+          "subAdditionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "needsOffsetRecalculation": true,
+          "day": 2,
+          "date": "2019-03-22T23:00:00.000Z",
+          "endDate": "2019-03-22T23:00:00.000Z",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+      },
+      "carRentalElements": [],
+      "date": "2019-03-21T23:00:00.000Z",
+      "missingBookableDays": false,
+      "elementsOrder": "17838|17839|17840",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "carRentalEnd": null,
+      "carRentalStart": null,
+      "endDate": "2019-03-24T23:00:00.000Z"
+    },
+    {
+      "nights": 10,
+      "day": 5,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "1000 Nights Camp",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title></title>\n</head>\n<body>Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.<br />\nHier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst. Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.&nbsp;Hier pakketinformatie tekst.</body>\n</html>\n",
+      "TSBlock": {
+        "id": 3102
+      },
+      "flightInfo": [],
+      "media": [
+        {
+          "sourceType": "mediaspirit",
+          "sourceId": "ad29c138edb1b3da52ee68cae1eb46c6",
+          "url": "https://s3-eu-west-1.amazonaws.com/demo.mediaspirit.io/original/lg/Google-Route.jpg"
+        }
+      ],
+      "elements": [
+        {
+          "offset": 0,
+          "nights": 10,
+          "unitAmount": 10,
+          "unitId": 2,
+          "optional": false,
+          "not_calculated": true,
+          "title": "1000 Nights Camp",
+          "TSProduct": {
+            "id": 8899,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17841
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 0,
+            "longitude": 0,
+            "pitch": 0,
+            "searchPlace": "Wahiba Sands",
+            "staticImageZoom": null,
+            "zoom": 0
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "1000 Nights Camp",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "additionalText":"In nec iaculis ligula. Donec viverra, libero ut blandit condimentum",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":2,
-              "unitId":5,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Proin et dolor",
-              "TSProduct":{
-                 "id":200,
-                 "tag":"GUAACCELP",
-                 "bookableDays":[
-
-                 ]
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "TSOrderline":{
-                 "id":8011
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 5,
+          "date": "2019-03-24T23:00:00.000Z",
+          "endDate": "2019-04-03T22:00:00.000Z",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+      },
+      "carRentalElements": [],
+      "date": "2019-03-24T23:00:00.000Z",
+      "missingBookableDays": false,
+      "elementsOrder": "17841",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "carRentalEnd": null,
+      "carRentalStart": null,
+      "endDate": "2019-04-03T22:00:00.000Z"
+    },
+    {
+      "nights": 0,
+      "day": 15,
+      "isFlight": true,
+      "typeId": 7,
+      "title": "Vliegreis Sydney - Amsterdam",
+      "subTitle": null,
+      "content": null,
+      "TSBlock": {
+        "id": 3100
+      },
+      "flightInfo": [
+        {
+          "departureTime": "09:00",
+          "arrivalTime": "05:00",
+          "airlineCode": "KL",
+          "flightNumber": "456",
+          "departureAirport": "SYD",
+          "departureDate": "2019-04-04",
+          "arrivalDate": "2019-04-04",
+          "arrivalAirport": "AMS"
+        }
+      ],
+      "media": [],
+      "elements": [
+        {
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Vliegreis Sydney - Amsterdam",
+          "TSProduct": {
+            "id": 21780,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17837
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Vliegreis Sydney - Amsterdam",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Proin et dolor",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"20.000"
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "additionalText":"Proin et dolor vel dui tincidunt sodales",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Incl Ontbijt",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":5,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Etiam a lorem a mi pulvinar condimentum",
-              "TSProduct":{
-                 "id":201,
-                 "tag":"GUAACTRAF",
-                 "bookableDays":[
-
-                 ]
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "needsOffsetRecalculation": true,
+          "day": 15,
+          "date": "2019-04-03T22:00:00.000Z",
+          "endDate": "2019-04-03T22:00:00.000Z",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+      },
+      "carRentalElements": [],
+      "date": "2019-04-03T22:00:00.000Z",
+      "missingBookableDays": false,
+      "elementsOrder": "17837",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "carRentalEnd": null,
+      "carRentalStart": null,
+      "endDate": "2019-04-03T22:00:00.000Z"
+    },
+    {
+      "nights": 0,
+      "day": 15,
+      "isFlight": false,
+      "typeId": 15,
+      "title": "Calamiteitenfonds",
+      "subTitle": null,
+      "content": null,
+      "TSBlock": {
+        "id": 3103
+      },
+      "flightInfo": [],
+      "media": [],
+      "elements": [
+        {
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 5,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Calamiteitenfonds",
+          "TSProduct": {
+            "id": 2092,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17842
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 0,
+            "longitude": 0,
+            "pitch": 0,
+            "searchPlace": null,
+            "staticImageZoom": null,
+            "zoom": 0
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Calamiteitenfonds",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "TSOrderline":{
-                 "id":8012
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": ""
               },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Etiam a lorem a mi pulvinar condimentum",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"75.000"
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+              }
+            },
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "needsOffsetRecalculation": true,
+          "day": 15,
+          "date": "2019-04-03T22:00:00.000Z",
+          "endDate": "2019-04-03T22:00:00.000Z",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+      },
+      "carRentalElements": [],
+      "date": "2019-04-03T22:00:00.000Z",
+      "missingBookableDays": false,
+      "elementsOrder": "17842",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "carRentalEnd": null,
+      "carRentalStart": null,
+      "endDate": "2019-04-03T22:00:00.000Z"
+    },
+    {
+      "nights": 0,
+      "day": 15,
+      "isFlight": false,
+      "typeId": 16,
+      "title": "Meerprijs",
+      "subTitle": null,
+      "content": null,
+      "TSBlock": {
+        "id": 3104
+      },
+      "flightInfo": [],
+      "media": [],
+      "elements": [
+        {
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 5,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Prijs",
+          "TSProduct": {
+            "id": 4532,
+            "tag": null,
+            "bookableDays": []
+          },
+          "TSOrderline": {
+            "id": 17843
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 0,
+            "longitude": 0,
+            "pitch": 0,
+            "searchPlace": null,
+            "staticImageZoom": null,
+            "zoom": 0
+          },
+          "media": [],
+          "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Prijs",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+              "30804": {
+                "costPrice": "0.000",
+                "salesPrice": 500
               },
-              "additionalText":"Phasellus pulvinar arcu dolor, et mollis quam maximus quis",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           }
-        ],
-        "inViewport":false,
-        "maps":{
-           "latitude":52.212853,
-           "longitude":5.2886923,
-           "zoom":15
-        },
-        "carRentalElements":[
-
-        ],
-        "date":"2018-11-14T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8010|8011|8012",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     },
-     {
-        "nights":0,
-        "day":3,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Sed porttitor lacus",
-        "subTitle":"In pellentesque",
-        "content":"<p>Praesent accumsan eros vel odio semper, sed porttitor lacus pellentesque. In pellentesque, orci ut porta porttitor, felis ipsum varius ligula, a facilisis nunc orci eu sapien. Proin et dolor vel dui tincidunt sodales ac ut augue. Aliquam malesuada sodales enim et efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris vulputate luctus nisl, ut finibus lectus ultricies at. Cras vulputate velit eu libero volutpat commodo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi eu tellus a nunc ullamcorper facilisis. Ut ut luctus sapien, eget convallis ex. Proin elementum ultrices augue, id gravida urna porta eu. Phasellus nunc risus, bibendum non pharetra eu, vulputate ut leo. Donec viverra faucibus elit eu scelerisque. Morbi eu gravida turpis. Aenean ultrices arcu non quam tempor, ut vulputate nisi ultricies.<\/p>",
-        "TSBlock":{
-           "id":2992
-        },
-        "flightInfo":[
-
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"3dd2a2bb0d796cb070ee31b1c16113de",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Krugerpark-olifanten.JPG"
-           },
-           {
-              "id":4,
-              "sourceType":"mediaspirit",
-              "sourceId":"518ab2b45169dd25618fb08c3019a2c4",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20safari%20(3).jpg",
-              "description":""
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"0fc160a85361066719014f668aadd86d",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20wrattenzwijn.jpg"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":4,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Luctus libero gravida",
-              "TSProduct":{
-                 "id":202,
-                 "tag":"GUATRASEM",
-                 "bookableDays":[
-
-                 ]
+              "30809": {
+                "costPrice": "0.000",
+                "salesPrice": 500
               },
-              "TSOrderline":{
-                 "id":8013
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Luctus libero gravida",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Class aptent taciti sociosqu",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":1,
-              "unitId":3,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Nunc ullamcorper ipsum eu",
-              "TSProduct":{
-                 "id":203,
-                 "tag":"GUAACCLOS",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8014
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nunc ullamcorper ipsum eu",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"-",
-              "subAdditionalText":null,
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":3,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Nullam sed lectus felis",
-              "TSProduct":{
-                 "id":204,
-                 "tag":"GUAACTJOR",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8015
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nullam sed lectus felis",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Sed commodo mattis orci at viverra",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "maps":{
-                 "latitude":52.212853,
-                 "longitude":5.2886923,
-                 "zoom":13
-              },
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Proin elementum ultrices",
-              "TSProduct":{
-                 "id":205,
-                 "tag":"GUAACTSUN",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8016
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Proin elementum ultrices",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Sed commodo mattis orci at viverra",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Donec aliquam purus interdum eros",
-              "TSProduct":{
-                 "id":206,
-                 "tag":"GUAACCJAG",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8017
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Donec aliquam purus interdum eros",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Donec aliquam purus interdum eros",
-              "subAdditionalText":null,
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           }
-        ],
-        "inViewport":true,
-        "maps":{
-           "latitude":52.212853,
-           "longitude":5.2886923,
-           "zoom":15
-        },
-        "carRentalElements":[
-
-        ],
-        "date":"2018-11-14T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8013|8014|8015|8016|8017",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     }
+              "30924": {
+                "costPrice": "0.000",
+                "salesPrice": 500
+              }
+            },
+            "salesTotal": 1500
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [],
+          "supplierComment": null,
+          "missingBookableDays": [],
+          "needsOffsetRecalculation": true,
+          "day": 15,
+          "date": "2019-04-03T22:00:00.000Z",
+          "endDate": "2019-04-03T22:00:00.000Z",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+      },
+      "carRentalElements": [],
+      "date": "2019-04-03T22:00:00.000Z",
+      "missingBookableDays": false,
+      "elementsOrder": "17843",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "carRentalEnd": null,
+      "carRentalStart": null,
+      "endDate": "2019-04-03T22:00:00.000Z"
+    }
   ],
-  "liborderId":594,
-  "cover":[
-     {
-        "id":145,
-        "sourceType":"mediaspirit",
-        "sourceId":"fc159151e390154a9bcd3e7fcd5ae741",
-        "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20safari%20(1).jpg"
-     }
+  "liborderId": 1359,
+  "departmentName": "Australia",
+  "departmentId": 5,
+  "cover": [
+    {
+      "sourceType": "mediaspirit",
+      "sourceId": "0acdeb0a3541ed45766c31a1922ad47d",
+      "url": "https://s3-eu-west-1.amazonaws.com/demo.mediaspirit.io/original/lg/Sulawesi-Bira-jongetjes.JPG",
+      "description": null
+    },
+    {
+      "sourceType": "mediaspirit",
+      "sourceId": "280f2ae5e8bacce9c41a25af74661a1d",
+      "url": "https://s3-eu-west-1.amazonaws.com/demo.mediaspirit.io/original/lg/IMG_7939.JPG",
+      "description": null
+    }
   ],
-  "hasNotCalculated":true,
-  "totalDays":3,
-  "totalDaysAllocated":3,
-  "endDate":"2018-11-14T23:00:00.000Z",
-  "notifications":[
-
+  "hasNotCalculated": true,
+  "totalDays": 15,
+  "totalDaysAllocated": 15,
+  "endDate": "2019-04-03T22:00:00.000Z",
+  "notifications": [
+    {
+      "elementIndex": 1,
+      "segmentIndex": 1,
+      "type": "room-type-mismatch",
+      "elementId": "17839"
+    }
   ],
-  "salesPriceAfterRounding":0,
-  "salesPriceBeforeRounding":0,
-  "costPriceBeforeRounding":0,
-  "title":"Pretium cursus justo",
-  "subTitle":"Augue"
+  "title": "Magic Builder title travelplan",
+  "subTitle": "Magic Builder Cover subtitle"
 }

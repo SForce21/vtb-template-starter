@@ -99,13 +99,56 @@ app-template {
 
 .travelroute {
   grid-column: 1 / span 12;
+  margin-top: 20px;
 }
 
-.travelroute vtb-segment {
+.travelroute vtb-element {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 4vh 60px 30px 50px auto;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: 4vh 20px 20px 20px auto;
   column-gap: 100px;
+}
+
+.travelroute vtb-element:nth-child(even) div[ng-reflect-ng-switch="day"] {
+  grid-column: 5 / span 6;
+  text-align: center;
+  font-weight: bold;
+}
+
+.travelroute
+  vtb-element:nth-child(even)
+  div[ng-reflect-ng-switch="day"]:before {
+  content: "Dag ";
+}
+
+.travelroute vtb-element:nth-child(odd) div[ng-reflect-ng-switch="day"] {
+  grid-column: 5 / span 6;
+  text-align: center;
+  font-weight: bold;
+}
+
+.travelroute vtb-element:nth-child(odd) div[ng-reflect-ng-switch="day"]:before {
+  content: "Dag ";
+}
+
+.travelroute vtb-element:nth-child(even) div[ng-reflect-ng-switch="date"] {
+  grid-column: 8 / span 5;
+  text-align: left;
+}
+
+.travelroute vtb-element:nth-child(odd) div[ng-reflect-ng-switch="date"] {
+  grid-column: 3 / span 5;
+  text-align: right;
+}
+
+.travelroute vtb-element:nth-child(even) div[ng-reflect-ng-switch="title"] {
+  grid-column: 8 / span 5;
+  text-align: left;
+}
+
+.travelroute vtb-element:nth-child(odd) div[ng-reflect-ng-switch="title"] {
+  grid-column: 3 / span 5;
+  text-align: right;
 }
 
 .program {
